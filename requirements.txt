@@ -1,6 +1,10 @@
+# Suggest: python==3.6.5
+
 # Following to install
 # $ sudo pip2.7 install --upgrade pip
 # $ sudo pip2.7 install --upgrade -r requirements.txt
+
+msgpack==0.5.6 # anaconda miss it
 
 ### Core
 jupyter==1.0.0
@@ -12,8 +16,8 @@ scipy==1.1.0
 ### ML
 scikit-learn==0.19.1
 
-tensorflow==1.8.0
-# tensorflow-gpu==1.8.0 # if you want GPU support
+tensorflow==1.9.0
+# tensorflow-gpu==1.9.0 # if you want GPU support
 
 # Forcing bleach to 1.5 to avoid version incompatibility when installing TensorBoard
 bleach==1.5.0 
